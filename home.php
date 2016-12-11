@@ -18,20 +18,22 @@
 		<div class="page-header" style="padding-top: 70px;">
 			<h1 class="text-center">Welcome!</h1>
 			<?php
-                $day = date("z");
-                if(($day >= 352) || ($day <= 11)){
+                $month = date("M");
+                $day = date("j");
+                if(($month = 12 && $day >= 17) || ($month == 1 && $day <= 9)){
                 echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
                 }
                 else{
-                echo "<p class='text-center'>Please submit your bowl selections by December 18th if you have not already done so.</p>";
+                echo "<p class='text-center'>Please submit your bowl selections by December 17th if you have not already done so.</p>";
                 }
             ?>
 		</div>
     <div class="container-fluid">
       <?php
         $date = date("n/j");
-        $day = date("z");
-        if(($day >= 352) || ($day <= 11)){
+        $month = date("M");
+        $day = date("j");
+        if(($month = 12 && $day >= 17) || ($month == 1 && $day <= 9)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
             $data = file("data.csv");

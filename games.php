@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php
-    readfile("header.php");
-  ?>
+    <?php
+        readfile("header.php");
+    ?>
 	<body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <span class="navbar-brand">Bobs Bowl Challenge</span>
@@ -15,6 +15,13 @@
       </div>
     </nav>
     <div class="container-fluid" style="padding-top: 70px;">
+        <?php
+            $month = date("M");
+            $day = date("j");
+            if(($month <= 12 && $day <= 17) || ($month >= 1 && $day >= 9)){
+            echo "<p class='text-center'>Picks will not be shown before the day of the first game.</p>";
+            }
+        ?>
       <table class="table table-hover table-striped table-fixedheader">
         <?php
           $data = file("data.csv");
@@ -34,9 +41,11 @@
 
           echo "</tr></thead>";
           //Body
+          $month = date("M");
+        $day = date("j");
           echo "<tbody>";
             for($i=1; $i<count($dataArray); $i++){
-              echo $modalTeam1;
+              //echo $modalTeam1;
               echo "<tr>";
                 echo "<td class='date'>".$dataArray[$i][0]."</td>";
                 //echo "<td class='time'>".$dataArray[$i][1]."</td>";
@@ -47,9 +56,14 @@
                 echo "<td class='teamname'>"; if($dataArray[$i][8]==1){echo $dataArray[$i][6];}elseif($dataArray[$i][8]==2){echo $dataArray[$i][7];}else{echo "-";} echo "</td>";
                 for($j=9; $j<count($dataArray[$i])-1; $j++){
                   echo "<td class='teamname'>";
+                  if(($month = 12 && $day >= 17) || ($month == 1 && $day <= 9)){
                     if($dataArray[$i][$j] == $dataArray[$i][8] && is_numeric($dataArray[$i][8])){echo "&#x2714; ";}
                     elseif($dataArray[$i][$j] != $dataArray[$i][8] && is_numeric($dataArray[$i][8]) && !empty($dataArray[$i][8])){echo "&#x2718; ";}
                     if($dataArray[$i][$j]==1){echo $dataArray[$i][6];}elseif($dataArray[$i][$j]==2){echo $dataArray[$i][7];}else{echo "-";}
+                  }
+                  else{
+                    echo "-";
+                  }
                   echo "</td>";
                 }
               echo "</tr>";
