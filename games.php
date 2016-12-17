@@ -18,7 +18,7 @@
         <?php
             $month = date("M");
             $day = date("j");
-            if(($month <= 12 && $day <= 17) || ($month >= 1 && $day >= 9)){
+            if(($month <= 12 && $day < 17) || ($month >= 1 && $day >= 9)){
             echo "<p class='text-center'>Picks will not be shown before the day of the first game.</p>";
             }
         ?>
