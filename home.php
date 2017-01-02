@@ -30,10 +30,11 @@
 		</div>
     <div class="container-fluid">
       <?php
-        $date = "12/17";//date("n/j");
-        $month = 12;//date("M");
-        $day = 17;//date("j");
-        if(($month = 12 && $day >= 17) || ($month == 1 && $day <= 9)){
+        $date = date("n/j");
+        $month = date("M");
+        $day = date("j");
+	if(($month == 11 && $day >= 17) || ($month == 0 && $day <= 9)){
+        //if(($month = 12 && $day >= 17) || ($month == 1 && $day <= 9)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
             $data = file("data.csv");
