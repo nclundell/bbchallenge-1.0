@@ -18,7 +18,8 @@
 		<div class="page-header" style="padding-top: 70px;">
 			<h1 class="text-center">Welcome!</h1>
 			<?php
-                $day = date("z");
+                //$day = date("z");	
+		$day = 1;
                 if(($day >= 350) || ($day <= 8)){
                 echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
                 }
@@ -29,8 +30,9 @@
 		</div>
     <div class="container-fluid">
       <?php
-        $date = date("n/j");
+        //$date = date("n/j");
         //$day = date("z");
+	$date = "1/1";
 	$day = 1;
         if(($day >= 350) || ($day <= 8)){
           echo "<table class='table table-hover table-striped table-fixed'>";
