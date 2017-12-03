@@ -62,7 +62,7 @@
       width: 9%;
     }
     .teamname{
-      max-width: 6%;
+      width: 7%;
       text-overflow: ellipsis;
     }
     .table {
