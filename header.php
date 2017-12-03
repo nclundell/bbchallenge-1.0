@@ -60,10 +60,11 @@
     }
     .bowl{
       width: 9%;
+      overflow: auto;
     }
     .teamname{
-      width: 7%;
-      text-overflow: ellipsis;
+      width: 7.33%;
+      overflow: auto;
     }
     .table {
       white-space: nowrap;
