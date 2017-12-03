@@ -30,7 +30,8 @@
     <div class="container-fluid">
       <?php
         $date = date("n/j");
-        $day = date("z");
+        //$day = date("z");
+	$day = 1;
         if(($day >= 350) || ($day <= 8)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
