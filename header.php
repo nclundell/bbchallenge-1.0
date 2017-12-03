@@ -62,7 +62,8 @@
       width: 9%;
     }
     .teamname{
-      width: 8%;
+      max-width: 6%;
+      text-overflow: ellipsis;
     }
     .table {
       white-space: nowrap;
