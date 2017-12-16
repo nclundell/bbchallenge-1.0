@@ -1,42 +1,42 @@
-Date,Time,TV,Bowl Game,Matchup,Points,Team 1,Team 2,Winner,Amy & Jesse,Clarke,Hannah,Karen,Katie,Louis,Nathan,Sarah
-12/16,12:00 PM,ABC,Celebration Bowl,MEAC vs. SWAC,1,NC A&T,Grambing St,,,1,1,1,,1,2,1
-12/16,1:00 PM,ESPN,New Orleans Bowl,Sun Belt vs. C-USA,1,Troy,North Texas,,,1,1,1,,1,1,1
-12/16,2:30 PM,CBSSN,Cure Bowl,American vs. Sun Belt,1,Georgia St.,WKU,,,2,1,2,,2,1,2
-12/16,3:30 PM,ABC,Las Vegas Bowl,MWC vs. Pac-12,1,Boise St.,Oregon,,,1,1,1,,1,2,2
-12/16,4:30 PM,ESPN,New Mexico Bowl,C-USA vs. MWC,1,Colorado St.,Marshall,,,2,1,1,,2,1,1
-12/16,8:00 PM,ESPN,Camellia Bowl,MAC vs. Sun Belt,1,Middle Tennesse,Arkansas State,,,2,1,1,,2,1,2
-12/19,7:00 PM,ESPN,Boca Raton Bowl,American vs. C-USA,1,FAU,Akron,,,1,1,1,,1,1,1
-12/20,8:00 PM,ESPN,Frisco Bowl,American Vs At-Large,1,SMU,Louisiana Tech,,,1,1,1,,1,2,1
-12/21,8:00 PM,ESPN,Gasparilla Bowl,American vs. C-USA,1,FIU,Temple,,,1,1,2,,1,2,2
-12/22,12:30 PM,ESPN,Bahamas Bowl,Ohio vs. UAB,1,Ohio,UAB,,,1,2,2,,1,1,1
-12/22,4:00 PM,ESPN,Famous Idaho Potato Bowl,MAC vs. MWC,1,CMU,Wyoming,,,2,2,2,,2,1,1
-12/23,12:00 PM,ESPN,Birmingham Bowl,SEC vs. American,1,Texas Tech,USF,,,2,2,2,,1,2,2
-12/23,3:30 PM,ESPN,Armed Forces Bowl,Army vs. C-USA,1,Army,San Diego St.,,,1,1,2,,1,1,2
-12/23,7:00 PM,ESPN,Dollar General Bowl,MAC vs. Sun Belt,1,App. State,Toledo,,,2,1,1,,2,2,2
-12/24,8:30 PM,ESPN,Hawai'i Bowl,American vs. MWC,1,Houston,Fresno State,,,2,2,2,,1,2,1
-12/26,1:30 PM,ESPN,Heart of Dallas Bowl,Big 12 vs. Big Ten,1,W. Virginia,Utah,,,2,1,1,,2,2,2
-12/26,5:15 PM,ESPN,Quick Lane Bowl,Big Ten vs. ACC/Notre Dame,1,NIU,Duke,,,2,1,1,,2,1,2
-12/26,9:00 PM,ESPN,Cactus Bowl,Big 12 vs. Pac-12,1,Kansas St.,UCLA,,,1,2,2,,1,1,1
-12/27,1:30 PM,ESPN,Independance Bowl,SEC vs. ACC/Notre Dame,1,Southern Miss,Florida St.,,,2,1,2,,2,2,2
-12/27,5:15 PM,ESPN,Pinstripe Bowl,Big Ten vs. ACC/Notre Dame,1,Iowa,Boston College,,,1,2,1,,1,1,1
-12/27,8:30 PM,ESPN,Foster Farms Bowl,Big 12 vs. Pac-12,1,Purdue,Arizona,,,1,1,1,,2,1,1
-12/27,9:00 PM,ESPN,Texas Bowl,Big 12 vs. SEC,1,Texas,Missouri,,,2,1,1,,2,1,2
-12/28,1:30 PM,ESPN,Military Bowl,ACC/Notre Dame vs. American,1,Virginia,Navy,,,2,2,2,,2,2,2
-12/28,5:15 PM,ESPN,Camping World Bowl,Big 12 vs. ACC/Notre Dame,1,Oklahoma St.,Virginia Tech,,,1,2,1,,1,2,1
-12/28,9:00 PM,FS1,Holiday Bowl,Big Ten vs. Pac-12,1,Michigan St.,Washington St.,,,1,2,1,,2,1,1
-12/28,9:00 PM,ESPN,Alamo Bowl,Big 12 vs. Pac-12,1,Stanford,TCU,,,2,2,1,,1,2,1
-12/29,1:00 PM,ESPN,Belk Bowl,SEC vs. ACC/Notre Dame,1,Texas A&M,Wake Forest,,,2,2,1,,2,2,2
-12/29,3:00 PM,CBS,Sun Bowl,Pac 12 vs. ACC/Notre Dame,1,Arizona St.,NC St.,,,2,1,1,,2,2,2
-12/29,4:30 PM,ESPN,Music City Bowl,SEC vs. ACC/Notre Dame,1,Kentucky,Northwestern,,,2,1,2,,1,2,2
-12/29,5:30 PM,CBSSN,Arizona Bowl,MWC vs. Sun Belt,1,Utah St.,New Mexico St.,,,1,2,1,,1,2,2
-12/29,8:30 PM,ESPN,Cotton Bowl,At-Large vs. At-Large,1,USC,Ohio State,,,2,2,1,,2,2,2
-12/30,12:00 PM,ESPN,TaxSlayer Bowl,SEC vs. ACC/Notre Dame,1,Mississippi St.,Louisville,,,2,1,2,,2,2,2
-12/30,12:30 PM,ABC,Liberty Bowl,Big 12 vs. SEC,1,Iowa St.,Memphis,,,1,2,2,,1,2,2
-12/30,4:00 PM,ESPN,Fiesta Bowl,At-Large vs. At-Large,1,Penn St.,Washington,,,1,2,1,,1,2,2
-12/30,8:00 PM,ESPN,Orange Bowl,ACC vs. SEC/Big Ten/Notre Dame,1,Miami,Wisconsin,,,2,1,2,,2,2,1
-1/1,12:00 PM,ESPN2,Outback Bowl,Big Ten vs. SEC,1,Michigan,South Carolina,,,1,2,1,,1,2,1
-1/1,12:30 PM,ESPN,Peach Bowl,At-Large vs. At-Large,1,Auburn,UCF,,,1,1,1,,1,1,1
-1/1,1:00 PM,ABC,Citrus Bowl,SEC vs. ACC/Big Ten/Notre Dame,1,LSU,Notre Dame,,,1,1,2,,2,2,1
-1/1,5:00 PM,ESPN,Rose Bowl,Semifinal,2,Georgia,Oklahoma,,,2,2,2,,2,1,2
-1/1,8:45 PM,ESPN,Sugar Bowl,Semifinal,2,Clemson,Alabama,,,1,2,1,,1,1,2
-1/8,8:00 PM,ESPN,National Championship,Final,4,Rose Bowl Winner,Sugar Bowl Winner,,,2,2,2,,1,1,1
+Date,Time,TV,Bowl Game,Matchup,Points,Team 1,Team 2,Winner,Amy & Jesse,Clarke,Hannah,Karen,Katie,Louis,Nathan,Sarah,Buffer
+12/16,12:00 PM,ABC,Celebration Bowl,MEAC vs. SWAC,1,NC A&T,Grambing St,,,1,1,1,,1,2,1,
+12/16,1:00 PM,ESPN,New Orleans Bowl,Sun Belt vs. C-USA,1,Troy,North Texas,,,1,1,1,,1,1,1,
+12/16,2:30 PM,CBSSN,Cure Bowl,American vs. Sun Belt,1,Georgia St.,WKU,,,2,1,2,,2,1,2,
+12/16,3:30 PM,ABC,Las Vegas Bowl,MWC vs. Pac-12,1,Boise St.,Oregon,,,1,1,1,,1,2,2,
+12/16,4:30 PM,ESPN,New Mexico Bowl,C-USA vs. MWC,1,Colorado St.,Marshall,,,2,1,1,,2,1,1,
+12/16,8:00 PM,ESPN,Camellia Bowl,MAC vs. Sun Belt,1,Middle Tennesse,Arkansas State,,,2,1,1,,2,1,2,
+12/19,7:00 PM,ESPN,Boca Raton Bowl,American vs. C-USA,1,FAU,Akron,,,1,1,1,,1,1,1,
+12/20,8:00 PM,ESPN,Frisco Bowl,American Vs At-Large,1,SMU,Louisiana Tech,,,1,1,1,,1,2,1,
+12/21,8:00 PM,ESPN,Gasparilla Bowl,American vs. C-USA,1,FIU,Temple,,,1,1,2,,1,2,2,
+12/22,12:30 PM,ESPN,Bahamas Bowl,Ohio vs. UAB,1,Ohio,UAB,,,1,2,2,,1,1,1,
+12/22,4:00 PM,ESPN,Famous Idaho Potato Bowl,MAC vs. MWC,1,CMU,Wyoming,,,2,2,2,,2,1,1,
+12/23,12:00 PM,ESPN,Birmingham Bowl,SEC vs. American,1,Texas Tech,USF,,,2,2,2,,1,2,2,
+12/23,3:30 PM,ESPN,Armed Forces Bowl,Army vs. C-USA,1,Army,San Diego St.,,,1,1,2,,1,1,2,
+12/23,7:00 PM,ESPN,Dollar General Bowl,MAC vs. Sun Belt,1,App. State,Toledo,,,2,1,1,,2,2,2,
+12/24,8:30 PM,ESPN,Hawai'i Bowl,American vs. MWC,1,Houston,Fresno State,,,2,2,2,,1,2,1,
+12/26,1:30 PM,ESPN,Heart of Dallas Bowl,Big 12 vs. Big Ten,1,W. Virginia,Utah,,,2,1,1,,2,2,2,
+12/26,5:15 PM,ESPN,Quick Lane Bowl,Big Ten vs. ACC/Notre Dame,1,NIU,Duke,,,2,1,1,,2,1,2,
+12/26,9:00 PM,ESPN,Cactus Bowl,Big 12 vs. Pac-12,1,Kansas St.,UCLA,,,1,2,2,,1,1,1,
+12/27,1:30 PM,ESPN,Independance Bowl,SEC vs. ACC/Notre Dame,1,Southern Miss,Florida St.,,,2,1,2,,2,2,2,
+12/27,5:15 PM,ESPN,Pinstripe Bowl,Big Ten vs. ACC/Notre Dame,1,Iowa,Boston College,,,1,2,1,,1,1,1,
+12/27,8:30 PM,ESPN,Foster Farms Bowl,Big 12 vs. Pac-12,1,Purdue,Arizona,,,1,1,1,,2,1,1,
+12/27,9:00 PM,ESPN,Texas Bowl,Big 12 vs. SEC,1,Texas,Missouri,,,2,1,1,,2,1,2,
+12/28,1:30 PM,ESPN,Military Bowl,ACC/Notre Dame vs. American,1,Virginia,Navy,,,2,2,2,,2,2,2,
+12/28,5:15 PM,ESPN,Camping World Bowl,Big 12 vs. ACC/Notre Dame,1,Oklahoma St.,Virginia Tech,,,1,2,1,,1,2,1,
+12/28,9:00 PM,FS1,Holiday Bowl,Big Ten vs. Pac-12,1,Michigan St.,Washington St.,,,1,2,1,,2,1,1,
+12/28,9:00 PM,ESPN,Alamo Bowl,Big 12 vs. Pac-12,1,Stanford,TCU,,,2,2,1,,1,2,1,
+12/29,1:00 PM,ESPN,Belk Bowl,SEC vs. ACC/Notre Dame,1,Texas A&M,Wake Forest,,,2,2,1,,2,2,2,
+12/29,3:00 PM,CBS,Sun Bowl,Pac 12 vs. ACC/Notre Dame,1,Arizona St.,NC St.,,,2,1,1,,2,2,2,
+12/29,4:30 PM,ESPN,Music City Bowl,SEC vs. ACC/Notre Dame,1,Kentucky,Northwestern,,,2,1,2,,1,2,2,
+12/29,5:30 PM,CBSSN,Arizona Bowl,MWC vs. Sun Belt,1,Utah St.,New Mexico St.,,,1,2,1,,1,2,2,
+12/29,8:30 PM,ESPN,Cotton Bowl,At-Large vs. At-Large,1,USC,Ohio State,,,2,2,1,,2,2,2,
+12/30,12:00 PM,ESPN,TaxSlayer Bowl,SEC vs. ACC/Notre Dame,1,Mississippi St.,Louisville,,,2,1,2,,2,2,2,
+12/30,12:30 PM,ABC,Liberty Bowl,Big 12 vs. SEC,1,Iowa St.,Memphis,,,1,2,2,,1,2,2,
+12/30,4:00 PM,ESPN,Fiesta Bowl,At-Large vs. At-Large,1,Penn St.,Washington,,,1,2,1,,1,2,2,
+12/30,8:00 PM,ESPN,Orange Bowl,ACC vs. SEC/Big Ten/Notre Dame,1,Miami,Wisconsin,,,2,1,2,,2,2,1,
+1/1,12:00 PM,ESPN2,Outback Bowl,Big Ten vs. SEC,1,Michigan,South Carolina,,,1,2,1,,1,2,1,
+1/1,12:30 PM,ESPN,Peach Bowl,At-Large vs. At-Large,1,Auburn,UCF,,,1,1,1,,1,1,1,
+1/1,1:00 PM,ABC,Citrus Bowl,SEC vs. ACC/Big Ten/Notre Dame,1,LSU,Notre Dame,,,1,1,2,,2,2,1,
+1/1,5:00 PM,ESPN,Rose Bowl,Semifinal,2,Georgia,Oklahoma,,,2,2,2,,2,1,2,
+1/1,8:45 PM,ESPN,Sugar Bowl,Semifinal,2,Clemson,Alabama,,,1,2,1,,1,1,2,
+1/8,8:00 PM,ESPN,National Championship,Final,4,Rose Bowl Winner,Sugar Bowl Winner,,,2,2,2,,1,1,1,
