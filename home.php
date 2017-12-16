@@ -10,7 +10,7 @@
       <div class="container">
         <ul class="nav navbar-nav">
           <li role="presentation" class="active"><a href="home.php">Home</a></li>
-          <--!<li role="presentation" ><a href="games.php">Games</a></li>-->
+          <!--<li role="presentation" ><a href="games.php">Games</a></li>-->
           <li role="presentation" ><a href="leaders.php">Leaders</a></li>
         </ul>
       </div>
