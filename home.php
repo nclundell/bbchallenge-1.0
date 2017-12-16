@@ -31,7 +31,7 @@
       <?php
         $date = date("n/j");
         $day = date("z");
-        if(($day >= 350) || ($day <= 8)){
+        if(($day >= 349) || ($day <= 8)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
             $data = file("data.csv");
