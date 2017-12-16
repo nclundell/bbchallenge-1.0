@@ -19,7 +19,7 @@
 			<h1 class="text-center">Welcome!</h1>
 			<?php
                 $day = date("z");	
-                if(($day >= 348) || ($day <= 8)){
+                if(($day >= 350) || ($day <= 8)){
                 echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
                 }
                 else{
