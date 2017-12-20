@@ -40,6 +40,12 @@
     ::-webkit-scrollbar {
         display: none;
     }
+    
+    a {
+      color: inherit; /* blue colors for links too */
+      text-decoration: inherit; /* no underline */
+    }
+    
     .two-column{
       width: 10em;
     }
