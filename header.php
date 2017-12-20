@@ -42,7 +42,7 @@
     }
     
     a {
-      color: inherit; /* blue colors for links too */
+      color: inherit; /* inherit colors */
       text-decoration: inherit; /* no underline */
     }
     
