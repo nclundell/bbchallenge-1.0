@@ -54,7 +54,7 @@
               for($i=1; $i<count($dataArray); $i++){
                 if($dataArray[$i][0] == $date){
                   echo "<tr>";
-                    echo "<a target='blank' href='https://bbchallenge.herokuapp.com/home.php'>"
+                    echo "<a target='_blank' href='https://bbchallenge.herokuapp.com/home.php'>"
                       //echo "<td class='date'>".$dataArray[$i][0]."</td>";
                       echo "<td class='time'>".$dataArray[$i][1]."</td>";
                       echo "<td class='tv'>".$dataArray[$i][2]."</td>";
