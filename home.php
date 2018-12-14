@@ -17,9 +17,7 @@
     </nav>
 		<div class="page-header" style="padding-top: 70px;">
 			<h1 class="text-center">Welcome!</h1>
-			<?php
-        echo "<p class='text-center'>Please submit your bowl selections by December 15th if you have not already done so.</p>";
-      ?>
+			<?php echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>"; ?>
 		</div>
     <div class="container-fluid">
       <?php
