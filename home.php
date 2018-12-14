@@ -19,6 +19,7 @@
 			<h1 class="text-center">Welcome!</h1>
 			<?php
         echo "<p class='text-center'>Please submit your bowl selections by December 15th if you have not already done so.</p>";
+      ?>
 		</div>
     <div class="container-fluid">
       <?php
