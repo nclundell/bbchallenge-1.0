@@ -18,14 +18,7 @@
 		<div class="page-header" style="padding-top: 70px;">
 			<h1 class="text-center">Welcome!</h1>
 			<?php
-                $day = date("z");	
-                if(($day >= 349) || ($day <= 8)){
-                echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
-                }
-                else{
-                echo "<p class='text-center'>Please submit your bowl selections by December 16th if you have not already done so.</p>";
-                }
-            ?>
+        echo "<p class='text-center'>Please submit your bowl selections by December 15th if you have not already done so.</p>";
 		</div>
     <div class="container-fluid">
       <?php

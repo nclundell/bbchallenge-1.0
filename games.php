@@ -15,7 +15,7 @@
       </div>
     </nav>
     <div class="container-fluid" style="padding-top: 70px;">
-      <table class="table table-hover table-striped table-fixedheader">
+      <table class="table table-hover table-striped table-fixedheader table-responsive">
         <?php
           $data = file("data.csv");
           $dataArray = [];
