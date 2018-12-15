@@ -29,7 +29,7 @@
             //echo "<th class='tv'>".$dataArray[0][2]."</th>";
             echo "<th class='bowl'>".$dataArray[0][3]."</th>";
             for($i=6; $i<count($dataArray[0])-1; $i++){
-              echo "<th class='teamname'>".$dataArray[0][$i]."</th>";
+              if($i != 8){echo "<th class='teamname'>".$dataArray[0][$i]."</th>";}
             }
 
           echo "</tr></thead>";
@@ -44,7 +44,7 @@
                 echo "<td class='bowl'>".$dataArray[$i][3]."</td>";
                 echo "<td class='teamname'>"; if(empty($dataArray[$i][6])){echo "-";}else{echo $dataArray[$i][6];} echo "</td>";
                 echo "<td class='teamname'>"; if(empty($dataArray[$i][7])){echo "-";}else{echo $dataArray[$i][7];} echo "</td>";
-                echo "<td class='teamname'>"; if($dataArray[$i][8]==1){echo $dataArray[$i][6];}elseif($dataArray[$i][8]==2){echo $dataArray[$i][7];}else{echo "-";} echo "</td>";
+                //echo "<td class='teamname'>"; if($dataArray[$i][8]==1){echo $dataArray[$i][6];}elseif($dataArray[$i][8]==2){echo $dataArray[$i][7];}else{echo "-";} echo "</td>";
                 for($j=9; $j<count($dataArray[$i])-1; $j++){
                   echo "<td class='teamname'>";
                     if($dataArray[$i][$j] == $dataArray[$i][8] && is_numeric($dataArray[$i][8])){echo "&#x2714; ";}
