@@ -21,6 +21,7 @@
 		</div>
     <div class="container-fluid">
       <?php
+        $date = date("n/j");
         echo "<table class='table table-hover table-striped table-fixed'>";
           //Generate Table
           $data = file("data.csv");
