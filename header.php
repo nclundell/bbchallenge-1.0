@@ -70,7 +70,8 @@
     }
     .teamname{
       width: 8%;
-      overflow: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .table {
       white-space: nowrap;
