@@ -19,7 +19,7 @@
 			<h1 class="text-center">Welcome!</h1>
 			<?php
                 $day = date("z");	
-                if(($day >= 354) || ($day <= 13)){
+                if(($day >= 353) || ($day <= 12)){
                 echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
                 }
                 else{
@@ -31,7 +31,7 @@
       <?php
         $date = date("n/j");
         $day = date("z");
-        if(($day >= 349) || ($day <= 13)){
+        if(($day >= 353) || ($day <= 12)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
             $data = file("data.csv");
