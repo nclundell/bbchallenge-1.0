@@ -25,7 +25,7 @@
           //Head
           echo "<thead><tr>";
             echo "<th class='date'>".$dataArray[0][0]."</th>";
-            //echo "<th class='time'>".$dataArray[0][1]."</th>";
+            echo "<th class='time'>".$dataArray[0][1]."</th>";
             //echo "<th class='tv'>".$dataArray[0][2]."</th>";
             echo "<th class='bowl'>".$dataArray[0][3]."</th>";
             for($i=9; $i<count($dataArray[0])-1; $i++){
@@ -40,7 +40,7 @@
               echo "<tr>";
                 echo "<td class='date'>".$dataArray[$i][0]."</td>";
                 //echo "<td class='time'>".$dataArray[$i][1]."</td>";
-                //echo "<td class='tv'>".$dataArray[$i][2]."</td>";
+                echo "<td class='tv'>".$dataArray[$i][2]."</td>";
                 echo "<td class='bowl'>".$dataArray[$i][3]."</td>";
                 //echo "<td class='teamname'>"; if(empty($dataArray[$i][6])){echo "-";}else{echo $dataArray[$i][6];} echo "</td>";
                 //echo "<td class='teamname'>"; if(empty($dataArray[$i][7])){echo "-";}else{echo $dataArray[$i][7];} echo "</td>";

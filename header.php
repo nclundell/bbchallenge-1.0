@@ -59,17 +59,17 @@
       width: 3%;
     }
     .time{
-      width: 2%;
+      width: 3%;
     }
     .tv{
-      width: 2%;
+      width: 3%;
     }
     .bowl{
-      width: 9%;
+      width: 10%;
       overflow: auto;
     }
     .teamname{
-      width: 8%;
+      width: 7%;
       overflow: auto;
     }
     .table {
