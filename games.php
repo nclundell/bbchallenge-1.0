@@ -39,8 +39,8 @@
               echo $modalTeam1;
               echo "<tr>";
                 echo "<td class='date'>".$dataArray[$i][0]."</td>";
-                //echo "<td class='time'>".$dataArray[$i][1]."</td>";
-                echo "<td class='tv'>".$dataArray[$i][2]."</td>";
+                echo "<td class='time'>".$dataArray[$i][1]."</td>";
+                //echo "<td class='tv'>".$dataArray[$i][2]."</td>";
                 echo "<td class='bowl'>".$dataArray[$i][3]."</td>";
                 //echo "<td class='teamname'>"; if(empty($dataArray[$i][6])){echo "-";}else{echo $dataArray[$i][6];} echo "</td>";
                 //echo "<td class='teamname'>"; if(empty($dataArray[$i][7])){echo "-";}else{echo $dataArray[$i][7];} echo "</td>";
