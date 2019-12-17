@@ -18,14 +18,14 @@
 		<div class="page-header" style="padding-top: 70px;">
 			<h1 class="text-center">Welcome!</h1>
 			<?php
-                $day = date("z");	
-                if(($day >= 353) || ($day <= 12)){
-                echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
-                }
-                else{
-                echo "<p class='text-center'>Please submit your bowl selections by December 20th if you have not already done so.</p>";
-                }
-            ?>
+          $day = date("z");	
+          if(($day >= 353) || ($day <= 12)){
+          echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
+          }
+          else{
+          echo "<p class='text-center'>Please submit your bowl selections by December 20th if you have not already done so.</p>";
+          }
+      ?>
 		</div>
     <div class="container-fluid">
       <?php
