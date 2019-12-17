@@ -6,7 +6,7 @@
   ?>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <span class="navbar-brand">Bobs Bowl Challenge</span>
+      <span class="navbar-brand">Nelundaar Bowl Challenge</span>
       <div class="container">
         <ul class="nav navbar-nav">
           <li role="presentation" class="active"><a href="home.php">Home</a></li>
@@ -30,7 +30,7 @@
     <div class="container-fluid">
       <?php
         $date = date("n/j");
-        $day = date("12/19");
+        $day = date("z");
         if(($day >= 354) || ($day <= 13)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
