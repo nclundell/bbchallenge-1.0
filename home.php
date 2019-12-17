@@ -30,7 +30,7 @@
     <div class="container-fluid">
       <?php
         $date = date("n/j");
-        $day = date("z");
+        $day = date("12/20");
         if(($day >= 354) || ($day <= 13)){
           echo "<table class='table table-hover table-striped table-fixed'>";
             //Generate Table
