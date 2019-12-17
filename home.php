@@ -45,7 +45,7 @@
               echo "<th class='time'>".$dataArray[0][1]."</th>";
               echo "<th class='tv'>".$dataArray[0][2]."</th>";
               echo "<th class='bowl'>".$dataArray[0][3]."</th>";
-              for($i=6; $i<count($dataArray[0])-1; $i++){
+              for($i=9; $i<count($dataArray[0])-1; $i++){
                 echo "<th class='teamname'>".$dataArray[0][$i]."</th>";
               }
             echo "</tr></thead>";
