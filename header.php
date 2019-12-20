@@ -70,7 +70,7 @@
       text-overflow: ellipsis;
     }
     .teamname{
-      width: 7%;
+      width: 6.46%;
       overflow: hidden;
       text-overflow: ellipsis;
     }
