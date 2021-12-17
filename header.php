@@ -69,7 +69,7 @@
       overflow: auto;
     }
     .teamname{
-      width: 8%;
+      width: 6.5%;
       overflow: auto;
     }
     .table {
