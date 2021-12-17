@@ -6,7 +6,7 @@
   ?>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <span class="navbar-brand">Bobs Bowl Challenge</span>
+      <span class="navbar-brand">Nelundaar Challenge</span>
       <div class="container">
         <ul class="nav navbar-nav">
           <li role="presentation" class="active"><a href="home.php">Home</a></li>
@@ -19,11 +19,11 @@
 			<h1 class="text-center">Welcome!</h1>
 			<?php
                 $day = date("z");	
-                if(($day >= 349) || ($day <= 8)){
+                if(($day >= 350) || ($day <= 10)){
                 echo "<p class='text-center'>Today's bowls are listed below.  All games in EST.  (".date("n/j").")</p>";
                 }
                 else{
-                echo "<p class='text-center'>Please submit your bowl selections by December 16th if you have not already done so.</p>";
+                echo "<p class='text-center'>Please submit your bowl selections by December 17th if you have not already done so.</p>";
                 }
             ?>
 		</div>
