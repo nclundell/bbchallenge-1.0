@@ -6,7 +6,7 @@
   ?>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <span class="navbar-brand">Bobs Bowl Challenge</span>
+      <span class="navbar-brand">Nelundaar Challenge</span>
       <div class="container">
         <ul class="nav navbar-nav">
           <li role="presentation" class="active"><a href="home.php">Home</a></li>
