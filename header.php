@@ -65,11 +65,11 @@
       width: 2%;
     }
     .bowl{
-      width: 9%;
+      width: 8%;
       overflow: auto;
     }
     .teamname{
-      width: 8%;
+      width: 7%;
       overflow: auto;
     }
     .table {
